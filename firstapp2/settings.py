@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'firstapp2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
+''' DATABASES3 = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'loginsignup',
@@ -87,7 +87,19 @@ DATABASES = {
         'HOST': 'dpg-d00tlrjuibrs73eqo6pg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
+} ''' 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangodb',
+        'USER': 'adminn',
+        'PASSWORD': 'King_chandu_s143',
+        'HOST': 'djangodb.cji6cw08sj9q.ap-northeast-1.rds.amazonaws.com',
+        'PORT': '5432',
+    }
 }
+
 
 '''DATABASES2 = {
     'default': {
